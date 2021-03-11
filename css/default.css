@@ -1,0 +1,79 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(0, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card-wrapper {
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url(../images/illustration-woman-online-desktop.svg),
+    url(../images/bg-pattern-desktop.svg);
+    
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: 
+        top 0em left -4.8em,
+        top 0em left -4.8em;
+    color: hsl(238, 29%, 16%);
+}
+/* 
+.illustration-desktop {
+    z-index: 1;
+    position: relative;
+    right: 16em;
+} */
+
+.box-illustration-desktop {
+    position: relative;
+    right: 5.8em;
+    top: 8em;
+}
+
+.dropdown-wrapper {
+    flex-direction: column;
+    margin: 3em 2em 3em 26em;
+}
+
+.faq-lable {
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.dropdown-header {
+    font-weight: 400;
+    font-size: 1em;
+    color: hsl(240, 6%, 50%);
+}
+
+.dropdown-arrow {
+    text-align: left;
+}
+
+.dropdown-content {
+    display: none;
+    font-weight: 400;
+    font-size: .8em;
+    color: hsl(240, 6%, 50%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
