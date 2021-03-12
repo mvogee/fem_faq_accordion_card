@@ -13,52 +13,38 @@
 <body>
   <div class="wrapper">
     <div class="card-wrapper">
-      <img class="box-illustration-desktop" src="./images/illustration-box-desktop.svg" alt="box desktop">
+      <!-- <img class="box-illustration-desktop" src="./images/illustration-box-desktop.svg" alt="box desktop"> -->
       <!-- make this backgorund image <img class="illustration-desktop" src="./images/illustration-woman-online-desktop.svg" alt="woman"> -->
       <label class="faq-lable"for="dropdown-wrapper">FAQ</label>
       <div class="dropdown-wrapper" id="dropdown-wrapper">
-        <ul>
-          <li>
-            <label class="dropdown-header" aria-label="expand">How many team members can I invite?</label>
-            <img class="dropdown-arrow" src="./images/icon-arrow-down.svg" alt="arrow" aria-label="dropdown arrow">
-            <p class="dropdown-content" aria-label="member">
-              You can invite up to 2 additional users on the Free plan. There is no limit on 
-              team members for the Premium plan.
-            </p>
-          </li>
-          <li>
-            <label for="max-file-size-dropdown"class="dropdown-header" aria-label="expand">What is the maximum file upload size?</label>
-            <img class="dropdown-arrow" src="./images/icon-arrow-down.svg" alt="arrow" aria-label="dropdown arrow">
-            <p class="dropdown-content max-file-size-dropdown" aria-label="max file size">
-              No more than 2GB. All files in your account must fit your allotted storage space.
-            </p>
-          </li>
-
-          <li>
-            <label class="dropdown-header" aria-lable="expand">How do I reset my password?</label>
-            <img class="dropdown-arrow" src="./images/icon-arrow-down.svg" alt="arrow" aria-label="dropdown arrow">
-            <p class="dropdown-content" aria-label="forgot password">
-              Click “Forgot password” from the login page or “Change password” from your profile page.
-              A reset link will be emailed to you.
-            </p>
-          </li>
-
-          <li>
-            <label class="dropdown-header" aria-lable="expand">Can I cancel my subscription?</label>
-            <img class="dropdown-arrow" src="./images/icon-arrow-down.svg" alt="arrow" aria-label="dropdown arrow">
-            <p class="dropdown-content">
-              Yes! Send us a message and we’ll process your request no questions asked.
-            </p>
-          </li>
-
-          <li>
-            <label class="dropdown-header">Do you provide additional support?</label>
-            <img class="dropdown-arrow" src="./images/icon-arrow-down.svg" alt="arrow" aria-label="dropdown arrow">
-            <p class="dropdown-content">
-              Chat and email support is available 24/7. Phone lines are open during normal business hours.
-            </p>
-          </li>
-        </ul>
+        <hr>
+        <button class="dropdown-header" aria-label="expand">How many team members can I invite?</button>
+        <p class="dropdown-content dropdown-inactive" aria-label="member">
+          You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.
+        </p>
+        <hr>
+        <button for="max-file-size-dropdown"class="dropdown-header" aria-label="expand">What is the maximum file upload size?</button>
+        <p class="dropdown-content" aria-label="max file size">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </p>
+        <hr>
+        <button class="dropdown-header" aria-lable="expand">How do I reset my password?</button>
+        <p class="dropdown-content dropdown-inactive" aria-label="forgot password">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p>
+        <hr>
+        <button class="dropdown-header" aria-lable="expand">Can I cancel my subscription?</button>
+        <p class="dropdown-content dropdown-inactive">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
+        <hr>
+        <button class="dropdown-header">Do you provide additional support?</button>
+        <p class="dropdown-content dropdown-inactive">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
+        <hr>
       </div>
     </div>
   </div>
