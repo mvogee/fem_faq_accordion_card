@@ -61,22 +61,37 @@ hr {
 }
 
 .dropdown-header {
-    margin: 0.5em 0;
-    font-weight: 400;
+    /* margin: 0.5em 0; */
+    padding: 0.5em;
+    font-weight: bold;
     font-size: 1em;
     color: hsl(240, 6%, 50%);
     border: none;
+    border-radius: 5px;
     width: 24em;
     text-align: left;
+    outline: none;
 }
 
-.dropdown-header::after {
+.dropdown-header:hover {
+    background-color:hsl(240, 5%, 91%);
+}
+
+/* .dropdown-header::after {
     content: url(../images/icon-arrow-down.svg) / "dropdown icon arrow";
     float: right;
     transform: rotate(180deg);
+} */
+
+.dropdown-arrow {
+    padding-top: 7px;
+    float: right;
 }
 
+
+
 .dropdown-content {
+    margin-left: .5em;
     font-weight: 400;
     font-size: .8em;
     color: hsl(240, 6%, 50%);
@@ -97,6 +112,17 @@ hr {
     transform: rotate(180deg);
 }
 
+.header-inactive {
+    font-weight: 400;
+}
+
+
 .dropdown-inactive {
     display: none;
+}
+
+.dropdown-arrow-active {
+    padding-top: 0;
+    padding-bottom: 5px;
+    transform: rotate(180deg);
 }
